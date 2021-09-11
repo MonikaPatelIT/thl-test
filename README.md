@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 
 ## Getting Started
 
-First, run the development server:
+To set up project and run on development mode do run following commands:
 
 ```bash
+npm install 
 npm run dev
-# or
-yarn dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+To test successful login use following credentials 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```
+email: "monika.patel@test.site",
+password: "Test@123",
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+On Desktop
+![image](https://user-images.githubusercontent.com/9668906/132943945-60440581-f032-4bb0-92d6-6baa46ff1bbc.png)
 
-To learn more about Next.js, take a look at the following resources:
+On Mobile 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![image](https://user-images.githubusercontent.com/9668906/132944014-04a309f7-4b56-4f3b-a91d-6474668585a7.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Validation errors for both required fields
+![image](https://user-images.githubusercontent.com/9668906/132943958-3e254498-3a4c-402d-8701-c6efde6ba023.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Email should be `john@test.com` format
+Password should be 8 characters long with at least one uppercase and lowercase letter.
+
+![image](https://user-images.githubusercontent.com/9668906/132943992-a0919f49-3ffb-4c6f-871f-c43d34dbc772.png)
+
+
+
+
+
+
