@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800");
+
+/*-------------------
+   THEME
+--------------------*/
+$bodyFont: "Roboto", Helvetica, Arial, sans-serif;
+$headingFont: "Poppins", Helvetica, Arial, sans-serif;
+
+/*---  Colors  ---*/
+$pageBackground: #ffffff;
+$blue: #096aae;
+$darkBlue: #253c6f;
+
+$errorColor: #d8533b;
+
+/*---  Layout  ---*/
+$borderRadius: 4px;
+
+$desktopBreakpoint: 1299px;
+$laptopBreakpoint: 1024px;
+$tabletBreakpoint: 992px;
+$mobileBreakpoint: 768px;

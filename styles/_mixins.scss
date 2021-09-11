@@ -1,0 +1,14 @@
+@import './variable';
+
+
+@mixin withFlex(
+  $flexDirection: column,
+  $flexWrap: nowrap,
+  $justify: center,
+  $align: center
+) {
+  display: flex;
+  flex-flow: $flexDirection $flexWrap;
+  justify-content: $justify;
+  align-items: $align;
+}

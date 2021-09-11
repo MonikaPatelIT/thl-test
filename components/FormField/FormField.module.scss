@@ -1,0 +1,70 @@
+@import '../../styles/mixins';
+@import '../../styles/variable';
+
+.field {
+  margin: 1.5em 0;
+  @include withFlex($align: flex-start);
+  legend,
+  label {
+    font-weight: 500;
+  }
+  fieldset {
+    @include withFlex(row, wrap, flex-start);
+    width: 100%;
+    gap: 1em;
+  }
+  input {
+    font-size: 1rem;
+  }
+}
+.inputField {
+  padding: 0.75em 1em;
+  border-radius: $borderRadius;
+  width: 100%;
+  border: 1px solid $blue;
+}
+
+.error {
+  color: $errorColor;
+  .radioField label {
+    border-color: $errorColor;
+    background: lighten($errorColor, 40%);
+    color: $errorColor;
+  }
+  .inputField {
+    border-color: $errorColor;
+    background: lighten($errorColor, 40%);
+  }
+}
+
+
+.button {
+    width: 100%;
+    margin-bottom: 0.5em;
+    padding: 0.88em 1.2em;
+    background: #ddd;
+    color: #6e6e6e;
+    font-size: 1em;
+    border: none;
+    border-radius: $borderRadius;
+    box-shadow: 2px 2px 5px -3px rgba(black,0.8);
+    &:hover {
+      background: darken(#ddd, 5%);
+      cursor: pointer;
+    }
+  }
+  .primary {
+    background: $blue;
+    color: white;
+    &:hover {
+      background: darken($blue, 5%);
+    }
+  }
+  .basic {
+    box-shadow: none;
+    &:hover {
+      background: gray;
+      color: white;
+    }
+  }
+  
